@@ -1,0 +1,72 @@
+h3 {
+    color: green;
+}
+
+#Box {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    animation: linear 10s myrotate;
+}
+
+#Box1 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    animation: linear 10s myrotate;
+}
+
+#Box2 {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    animation: linear 10s myrotate;
+}
+
+#main {
+    display: flex;
+    gap: 20px;
+    padding-left: 200px;
+
+}
+
+@keyframes myrotate{
+    from{
+        transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#loading {
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    animation: linear 10s myanimation;
+}
+
+@keyframes myanimation{
+    from{
+        width: 100px;
+        height: 5px;
+        background: red;
+    }
+    to{
+        width: 1200px;
+        height: 5px;
+        background-color: yellow;
+    }
+}
+
+
+#upara {
+    color: red;
+    font-size: large;
+
+}
+
+.uclass {
+    color: blueviolet;
+    font-size: large;
+}
